@@ -1100,7 +1100,7 @@ const Hero = ({ kicker, title, subtitle, primaryAction, secondaryAction }) => (
       playsInline
       preload="metadata"
     >
-      <source src="/Network%20Kingdom%20Video.mp4" type="video/mp4" />
+      <source src={`${import.meta.env.BASE_URL}Network%20Kingdom%20Video.mp4`} type="video/mp4" />
     </video>
 
     {/* Overlay for readability (Cisco-ish) */}
